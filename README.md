@@ -1,6 +1,9 @@
 # Virtual screening workflow of Phytochemical compounds against the protein ERO1A 
 
-This repository contains a shell script for performing a high-throughput virtual screening workflow. The process begins with preparing a large library of ligands from a SMILES file using Gypsum-DL, preparing a protein receptor, and finally, running the virtual screening for different ligand sets (Phytochemical compounds from COCONUT database, FAD, and EN460) using Autodock4 and POAP multithreaded pipeline targetting ERO1A protein. 
+This repository contains a shell script for performing a high-throughput virtual screening workflow. 
+```THIS is a part of manuscript "Discovery of a pyrazolopyridine alkaloid inhibitor of ERO1A that mitigates neuronal ER stress and age-related decline" Salinee Jantrapirom, Apiwat Sangphukieo, Natsinee U-on, Pattaporn Poonsawas, Wasinee Wongkumool, Ranchana Yeewa, Luca Lo Piccolo, doi: https://doi.org/10.1101/2025.07.14.664722```
+
+The process begins with preparing a large library of ligands from a SMILES file using Gypsum-DL, preparing a protein receptor, and finally, running the virtual screening for different ligand sets (Phytochemical compounds from COCONUT database, FAD, and EN460) using Autodock4 and POAP multithreaded pipeline targetting ERO1A protein. 
 
 ## Key Features
 
