@@ -6,10 +6,8 @@ This repository contains a shell script for performing a high-throughput virtual
 
 *   **Ligand Preparation**: Uses Gypsum-DL to convert a SMILES (`.smi`) file into 3D conformers (`.pdb`).
 *   **Parallel Processing**: Splits the input SMILES file and uses MPI to process the chunks in parallel, significantly speeding up ligand preparation.
-*   **Error Handling**: Includes a step to identify and re-run ligands that failed the Gypsum-DL preparation.
 *   **Receptor Preparation**: Uses PDB2PQR and MGLTools to prepare a protein for docking.
 *   **Automated Docking**: Utilizes the POAP script to run the virtual screening with AutoDock Vina.
-*   **Resume Capability**: Includes logic to handle interrupted screening runs, allowing you to resume without re-screening completed compounds.
 
 ## Dependencies
 
