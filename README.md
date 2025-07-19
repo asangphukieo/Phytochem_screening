@@ -1,4 +1,4 @@
-# Virtual Screening Workflow for ERO1A using POAP
+# Virtual screening workflow of Phytochemical compounds against the protein ERO1A 
 
 This repository contains a shell script to perform a virtual screening workflow against the protein ERO1A using Autodock4 and POAP multithreaded pipeline. The script prepares the protein and ligand files, and then runs the virtual screening calculations for different ligand sets (Phytochemical compounds from COCONUT database, FAD, and EN460).
 
